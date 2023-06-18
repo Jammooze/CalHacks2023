@@ -43,7 +43,7 @@ public class WaifuMain extends Application {
     
     public static String chatGPT(String message, String personality) throws JSONException {
         String url = "https://api.openai.com/v1/chat/completions";
-        String apiKey = "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"; // API KEY
+        String apiKey = "sk-##########"; // API KEY
         String model = "gpt-3.5-turbo"; // Utilizing GPT3.5 Turbo model
 
         try {
